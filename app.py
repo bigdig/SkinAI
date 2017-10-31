@@ -71,7 +71,6 @@ def main(isbn):
 
 @app.route("/new/", methods=["GET", "POST"], defaults={"isbn": None})
 @app.route("/new/<int:isbn>", methods=["POST", "GET"])
-@basicauth(username="user", password="pass")  # credentials should be fetched somewhere else...
 def create_resource(isbn):
     """
     An alterative route to insert target contents.
