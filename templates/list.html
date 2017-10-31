@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome!</title>
+</head>
+<body>
+{% for i in list %}
+    <p><a href="/book/{{ i }}" >{{ i }}</a></p>
+{% endfor %}
+</body>
+</html>

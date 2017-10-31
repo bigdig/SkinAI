@@ -1,0 +1,12 @@
+needed the newest version of:
+
+keras;
+
+tensorflow:
+
+pillow;
+
+
+there are several data from ISIC database and some online data, all of them are not the training data
+
+
