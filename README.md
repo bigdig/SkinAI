@@ -18,6 +18,11 @@ Requirements
 
 Usage
 -----
-$ python server.py
+$sudo python server.py
+http://0.0.0.0/new
+
+
+
+
 
 
